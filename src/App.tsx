@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from "react";
+import "./App.css";
+import { Container, Segment } from "semantic-ui-react";
+import { Top } from "./Section/Top";
+import { Content } from "./Section/Content";
+import { StoreContext } from "./Store";
+import { Disclaimer } from "./Section/Content/Disclaimer";
 
 function App() {
+  const { isWeb } = useContext(StoreContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container style={{ marginTop: 16 }}>
+      <Segment.Group>
+        <Top />
+        <Content />
+      </Segment.Group>
+      {!isWeb ? <Disclaimer /> : null}
+    </Container>
   );
 }
 
