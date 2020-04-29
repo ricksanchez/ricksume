@@ -1,10 +1,13 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useContext } from "react";
 import { Header, List, Divider, Icon } from "semantic-ui-react";
+import { StoreContext } from "../../Store";
 
 export const SideBar = () => {
+  const { isWeb } = useContext(StoreContext);
   return (
     <Fragment>
       <Header as="h3" inverted>
+        <Icon name="cog" />
         Main technologies
       </Header>
       <List>
@@ -26,7 +29,7 @@ export const SideBar = () => {
       </List>
       <Divider section />
       <Header as="h3" inverted>
-        Languages
+        <Icon name="language" /> Languages
       </Header>
       <List>
         <List.Item>
@@ -44,6 +47,22 @@ export const SideBar = () => {
         <Icon name="github" /> GitHub
       </Header>
       <a href="https://github.com/ricksanchez">github.com/ricksanchez</a>
+      <Divider section />
+      {isWeb ? (
+        <Fragment>
+          <Header as="h3" inverted>
+            <Icon name="code" /> Source code
+          </Header>
+          <a href="https://github.com/ricksanchez/ricksume">github.com/ricksanchez/ricksume</a>
+        </Fragment>
+      ) : (
+        <Fragment>
+          <Header as="h3" inverted>
+            <Icon name="cloud" /> Online version
+          </Header>
+          <a href="https://ricksanchez.github.io/ricksume/">github.com/ricksanchez/ricksume</a>
+        </Fragment>
+      )}
     </Fragment>
   );
 };
