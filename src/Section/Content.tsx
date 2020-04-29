@@ -6,7 +6,7 @@ import { Main } from "./Content/Main";
 export const Content = () => {
   return (
     <Segment>
-      <Grid>
+      <Grid stackable columns={2}>
         <Grid.Row>
           <Grid.Column width={12}>
             <Main />

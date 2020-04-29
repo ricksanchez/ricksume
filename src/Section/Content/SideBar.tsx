@@ -1,33 +1,35 @@
 import React, { Fragment, useContext } from "react";
-import { Header, List, Divider, Icon } from "semantic-ui-react";
+import { Header, List, Divider, Icon, Responsive } from "semantic-ui-react";
 import { StoreContext } from "../../Store";
 
 export const SideBar = () => {
   const { isWeb } = useContext(StoreContext);
   return (
     <Fragment>
-      <Header as="h3" inverted>
-        <Icon name="cog" />
-        Main technologies
-      </Header>
-      <List>
-        <List.Item>
-          <strong>.NET</strong> with C#
-        </List.Item>
-        <List.Item>
-          <strong>React</strong> + MobX
-        </List.Item>
-        <List.Item>
-          <strong>TypeScript</strong>
-        </List.Item>
-        <List.Item>
-          <strong>SQL</strong> (MySQL, Description PostgreSQL)
-        </List.Item>
-        <List.Item>
-          <strong>Haskell</strong>
-        </List.Item>
-      </List>
-      <Divider section />
+      <Responsive minWidth={770}>
+        <Header as="h3" inverted>
+          <Icon name="cog" />
+          Main technologies
+        </Header>
+        <List>
+          <List.Item>
+            <strong>.NET</strong> with C#
+          </List.Item>
+          <List.Item>
+            <strong>React</strong> + MobX
+          </List.Item>
+          <List.Item>
+            <strong>TypeScript</strong>
+          </List.Item>
+          <List.Item>
+            <strong>SQL</strong> (MySQL, Description PostgreSQL)
+          </List.Item>
+          <List.Item>
+            <strong>Haskell</strong>
+          </List.Item>
+        </List>
+        <Divider section />
+      </Responsive>
       <Header as="h3" inverted>
         <Icon name="language" /> Languages
       </Header>
