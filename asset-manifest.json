@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ricksume/static/css/main.cda42b4b.chunk.css",
-    "main.js": "/ricksume/static/js/main.ea1507b6.chunk.js",
-    "main.js.map": "/ricksume/static/js/main.ea1507b6.chunk.js.map",
+    "main.js": "/ricksume/static/js/main.0bf0b57a.chunk.js",
+    "main.js.map": "/ricksume/static/js/main.0bf0b57a.chunk.js.map",
     "runtime-main.js": "/ricksume/static/js/runtime-main.3f800215.js",
     "runtime-main.js.map": "/ricksume/static/js/runtime-main.3f800215.js.map",
     "static/js/2.dae1964b.chunk.js": "/ricksume/static/js/2.dae1964b.chunk.js",
     "static/js/2.dae1964b.chunk.js.map": "/ricksume/static/js/2.dae1964b.chunk.js.map",
     "index.html": "/ricksume/index.html",
-    "precache-manifest.fb726f44cfe10ccc9ab11688c6b4d4ed.js": "/ricksume/precache-manifest.fb726f44cfe10ccc9ab11688c6b4d4ed.js",
+    "precache-manifest.51a9408fb00e3f1e31b394d1f128c6a4.js": "/ricksume/precache-manifest.51a9408fb00e3f1e31b394d1f128c6a4.js",
     "service-worker.js": "/ricksume/service-worker.js",
     "static/css/main.cda42b4b.chunk.css.map": "/ricksume/static/css/main.cda42b4b.chunk.css.map",
     "static/js/2.dae1964b.chunk.js.LICENSE.txt": "/ricksume/static/js/2.dae1964b.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3f800215.js",
     "static/js/2.dae1964b.chunk.js",
     "static/css/main.cda42b4b.chunk.css",
-    "static/js/main.ea1507b6.chunk.js"
+    "static/js/main.0bf0b57a.chunk.js"
   ]
 }
