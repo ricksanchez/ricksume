@@ -62,7 +62,7 @@ export const SideBar = () => {
           <Header as="h3" inverted>
             <Icon name="cloud" /> Online version
           </Header>
-          <a href="https://ricksanchez.github.io/ricksume/">github.com/ricksanchez/ricksume</a>
+          <a href="https://ricksanchez.github.io/ricksume/">Ricksume</a>
         </Fragment>
       )}
     </Fragment>
