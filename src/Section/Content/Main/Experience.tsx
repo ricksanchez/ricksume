@@ -5,7 +5,7 @@ export const Experience = () => {
   return (
     <Fragment>
       <p>
-        I have experience as <strong>Software Developer</strong> in 3 companies:
+        I have <strong>7 years</strong> of work experience as <strong>Full Stack Web Developer</strong> in 3 companies:
       </p>
       <List>
         <List.Item>
@@ -36,6 +36,9 @@ export const Experience = () => {
             <List bulleted>
               <List.Item>
                 <strong>Haskell</strong> development
+              </List.Item>
+              <List.Item>
+                <strong>C#</strong> development
               </List.Item>
               <List.Item>
                 <strong>PHP</strong> development

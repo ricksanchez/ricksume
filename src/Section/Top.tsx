@@ -12,7 +12,7 @@ export const Top = () => {
           <Item.Image size="small" src={photo} />
           <Item.Content>
             <Header as="h1">Ricardo Sanchez Encinas</Header>
-            <Item.Meta>Software developer</Item.Meta>
+            <Item.Meta>Full Stack Web Developer</Item.Meta>
             <Item.Description>
               {isWeb ? null : (
                 <Fragment>
