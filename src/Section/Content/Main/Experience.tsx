@@ -5,13 +5,47 @@ export const Experience = () => {
   return (
     <Fragment>
       <p>
-        I have <strong>7 years</strong> of work experience as <strong>Full Stack Web Developer</strong> in 3 companies:
+        I have <strong>8 years</strong> of work experience as <strong>Full Stack Web Developer</strong> in 3 companies:
       </p>
       <List>
         <List.Item>
+          <Header as="h3">ABB BS</Header>
+          <p>
+            <em>Kraków, Poland (Jun 2020 - currently)</em>
+          </p>
+          <p>
+            Worked on a Manufacturing Execution System, as a full-stack .NET core/framework and TypeScript developer.
+          </p>
+          <p>
+            Designing and implementing new features for our micro frontend architecture and also implementing its
+            corresponding backend service.
+          </p>
+          <p>
+            I was also involved in designing the next generation of our micro frontend framework for the whole
+            division of the company.
+          </p>
+          <p>
+            My activities in the company are:
+            <List bulleted>
+              <List.Item>
+                <strong>TypeScript</strong> development
+              </List.Item>
+              <List.Item>
+                <strong>C# 7/8</strong> development
+              </List.Item>
+              <List.Item>
+                <strong>React</strong> development with <strong>Redux</strong>
+              </List.Item>
+              <List.Item>
+                <strong>ASP.NET core</strong> and <strong>ASP.NET Web API 2</strong>
+              </List.Item>
+            </List>
+          </p>
+        </List.Item>
+        <List.Item>
           <Header as="h3">Codete</Header>
           <p>
-            <em>Kraków, Poland (Dec 2013 - currently)</em>
+            <em>Kraków, Poland (Dec 2013 - Jun 2020)</em>
           </p>
           <p>
             Worked on a website for booking language courses and accommodations abroad, as a full-stack
